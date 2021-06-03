@@ -15,7 +15,7 @@ class Participant extends Component {
           tracks: nonNullTracks
         }
       }
-
+      
       componentDidMount() {
         if (!this.props.localParticipant) {
           this.props.participant.on('trackSubscribed', track => this.addTrack(track));
