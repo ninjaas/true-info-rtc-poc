@@ -147,7 +147,8 @@ hr { display: block; height: 1px;
 
 .participants {
   display:flex;
-  flex-wrap:wrap;
+  flex-direction: row;
+  // flex-wrap:wrap;
   width:100%;
   margin-left: -.75vw;
 }
@@ -158,18 +159,21 @@ hr { display: block; height: 1px;
   border-radius: 8px;
   margin-left: .75vw;
   margin-bottom: .75vw;
-  width: 23.5vw;
+  // width: 23.5vw;
   overflow: hidden;
-  height: 50vh;
+  // height: 50vh;
+  // width: 100%;
+  // height: 100%;
   -webkit-mask-image: -webkit-radial-gradient(white, black); 
   display: flex;
   justify-content: center;
 }
 
+
 .identity {
   position: absolute;
-  left: 0px;
-  bottom: 15px;
+  // left: 0px;
+  // bottom: 15px;
   color: white;
   padding-left: 15px;
   box-sizing: border-box;

@@ -27,7 +27,8 @@ class App extends Component {
           const room = await connect(data.accessToken, {
             name: this.state.roomName,
             audio: true,
-            video: true
+            video: true,
+            video: { width: 200, height:200 },
           });
       
           this.setState({ room: room });
